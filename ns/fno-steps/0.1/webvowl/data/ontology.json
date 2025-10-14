@@ -89,10 +89,10 @@
     "id" : "33",
     "type" : "owl:Class"
   }, {
-    "id" : "25",
+    "id" : "4",
     "type" : "owl:Class"
   }, {
-    "id" : "4",
+    "id" : "25",
     "type" : "owl:Class"
   }, {
     "id" : "1",
@@ -326,27 +326,6 @@
     "id" : "33",
     "superClasses" : [ "18" ]
   }, {
-    "iri" : "https://w3id.org/imec/ns/fno-steps#Bundle",
-    "baseIri" : "https://w3id.org/imec/ns/fno-steps",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "https://w3id.org/imec/ns/fno-steps#",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Bundle",
-      "en" : "Bundle"
-    },
-    "comment" : {
-      "en" : "A fno-steps:Bundle is a specific type of p-plan:Bundle that contains the provenance assertions of the execution of a fno-steps:Plan"
-    },
-    "id" : "25",
-    "superClasses" : [ "12" ]
-  }, {
     "iri" : "http://www.w3.org/ns/shacl#NodeShape",
     "baseIri" : "http://www.w3.org/ns/shacl",
     "instances" : 0,
@@ -368,6 +347,27 @@
     },
     "attributes" : [ "external" ],
     "id" : "4"
+  }, {
+    "iri" : "https://w3id.org/imec/ns/fno-steps#Bundle",
+    "baseIri" : "https://w3id.org/imec/ns/fno-steps",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/imec/ns/fno-steps#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Bundle",
+      "en" : "Bundle"
+    },
+    "comment" : {
+      "en" : "A fno-steps:Bundle is a specific type of p-plan:Bundle that contains the provenance assertions of the execution of a fno-steps:Plan"
+    },
+    "id" : "25",
+    "superClasses" : [ "12" ]
   }, {
     "iri" : "http://www.w3.org/2002/07/owl#Thing",
     "baseIri" : "http://owl2vowl.de",
@@ -945,6 +945,16 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "43"
   }, {
+    "iri" : "https://w3id.org/imec/ns/fno-steps#hasDescription",
+    "baseIri" : "https://w3id.org/imec/ns/fno-steps",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "hasDescription"
+    },
+    "domain" : "39",
+    "attributes" : [ "object" ],
+    "id" : "44"
+  }, {
     "iri" : "http://purl.org/net/p-plan#correspondsToStep",
     "baseIri" : "http://purl.org/net/p-plan",
     "range" : "39",
@@ -968,16 +978,6 @@
     },
     "domain" : "5",
     "attributes" : [ "object", "functional", "external" ],
-    "id" : "44"
-  }, {
-    "iri" : "https://w3id.org/imec/ns/fno-steps#hasDescription",
-    "baseIri" : "https://w3id.org/imec/ns/fno-steps",
-    "range" : "2",
-    "label" : {
-      "IRI-based" : "hasDescription"
-    },
-    "domain" : "39",
-    "attributes" : [ "object" ],
     "id" : "45"
   }, {
     "range" : "11",
@@ -1053,7 +1053,7 @@
     "comment" : {
       "en" : "If two instances of the class skosxl:Label have the same literal form, they are not necessarily the same resource."
     },
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "53"
   } ]
 }
