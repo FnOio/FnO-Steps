@@ -11,3 +11,5 @@ In Proceedings of the 11th Knowledge Capture Conference (K-CAP ’21),
 December 2–3, 2021, Virtual Event, USA. ACM, New York, NY, USA,
 4 pages.
 <https://doi.org/10.1145/3460210.3493559>
+
+Rendered version of the specification: [link](https://w3id.org/imec/ns/fno-steps#)
